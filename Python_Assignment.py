@@ -21,7 +21,7 @@ import re
 #import data files and describe data
 
 #set working directory
-os.chdir('/Users/Nathaniel/Documents/TheMathCompany/Walmart/TMC_WalmartTest/Walmart_Screening/Python_Portion/data') 
+os.chdir('/Users/Nathaniel/Documents/TheMathCompany/Walmart/TMC_WalmartTest/Walmart_Screening/Walmart_Python_Assesment/data') 
 
 movies = pd.read_csv('movies.csv', header = 0)
 print(movies.info())
@@ -197,7 +197,7 @@ t=((corr)*(df**.5))/((1-(corr**2))**.5)
 #In both testing methods we reject the null hypothesis that the population correlation is null 
   #Accept  alternative hypothesis that there is correlation between timelapse and rating
     
-#There
+
 
 
 
